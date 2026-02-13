@@ -28,9 +28,9 @@ Example:
 2,15,Task 3
 ```
 
-The program will sum all the minutes and seconds and output the result with proper pluralization:
+The program will sum all the minutes and seconds and output the result in `H:MM:SS` format (hours, zero-padded minutes, zero-padded seconds):
 ```
-<hour> hour(s) <min> minute(s) <sec> second(s)
+H:MM:SS
 ```
 
 ## Example
@@ -38,5 +38,5 @@ The program will sum all the minutes and seconds and output the result with prop
 With the sample `time.csv` provided:
 ```bash
 $ ./goCSVTimeAdd
-0 hours 27 minutes 20 seconds
+1:06:06
 ```
