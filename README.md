@@ -28,9 +28,9 @@ Example:
 2,15,Task 3
 ```
 
-The program will sum all the minutes and seconds and output the result in HH:MM:SS format:
+The program will sum all the minutes and seconds and output the result in `H:MM:SS` format (hours, zero-padded minutes, zero-padded seconds):
 ```
-HH:MM:SS
+H:MM:SS
 ```
 
 ## Example
