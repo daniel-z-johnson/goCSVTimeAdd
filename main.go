@@ -68,18 +68,5 @@ func main() {
 	minutes := totalMinutes % 60
 
 	// Output the result
-	hourLabel := "hour"
-	if hours != 1 {
-		hourLabel = "hours"
-	}
-	minuteLabel := "minutes"
-	if minutes == 1 {
-		minuteLabel = "minute"
-	}
-	secondLabel := "seconds"
-	if totalSeconds == 1 {
-		secondLabel = "second"
-	}
-
-	fmt.Printf("%d %s %d %s %d %s\n", hours, hourLabel, minutes, minuteLabel, totalSeconds, secondLabel)
+	fmt.Printf("%d:%02d:%02d\n", hours, minutes, totalSeconds)
 }
