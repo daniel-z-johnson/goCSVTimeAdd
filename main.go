@@ -68,5 +68,5 @@ func main() {
 	minutes := totalMinutes % 60
 
 	// Output the result
-	fmt.Printf("%d:%d %d\n", hours, minutes, totalSeconds)
+	fmt.Printf("%d:%02d:%02d\n", hours, minutes, totalSeconds)
 }
